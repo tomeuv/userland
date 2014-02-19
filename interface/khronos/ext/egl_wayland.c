@@ -69,7 +69,7 @@ get_vc_format(enum wl_dispmanx_format format)
 	case WL_DISPMANX_FORMAT_ABGR8888:
 		return VC_IMAGE_RGBA32;
 	case WL_DISPMANX_FORMAT_XBGR8888:
-		return VC_IMAGE_BGRX8888;
+		return VC_IMAGE_RGBX32;
 	case WL_DISPMANX_FORMAT_RGB565:
 		return VC_IMAGE_RGB565;
 	default:
